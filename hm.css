@@ -1,0 +1,112 @@
+h1 {
+  position: absolute;
+  left: 30%;
+  top: -7%;
+  text-align: center;
+  font-size: 50pt;
+  text-shadow: 2px 2px #00f3ffc7;
+}
+
+body {
+  /* background-color: white; */
+  background-image: url('sixers.jpg');
+  background-position: left 25%;
+  background-size: cover;
+  font-family: cursive;
+  font-size: 30pt;
+  color: #c50f0f;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  /* text-shadow: 2px 2px red; */
+}
+
+footer {
+  font-size: 50pt;
+  text-shadow: 2px 2px #00f3ffc7;
+  position: absolute;
+  top: 80%;
+  left: 25%;
+}
+
+#displayBox {
+  margin-top: 30px;
+  margin-left: -148px;
+  position: absolute;
+  top: 315px;
+  left: 532px;
+  text-shadow: 2px #00f3ffc7;
+}
+
+/* #wrapper {
+  /* float: inherit; */
+
+/* border-top: 5px solid black; */
+
+/* border-bottom: 5px solid black; */
+
+/* height: 420px;
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 15%;
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+} */
+
+#hintbox {
+  float: left;
+  height: 40px;
+  width: 200px;
+  position: absolute;
+  top: 70%;
+  left: 80%;
+  border: 0px solid black;
+  background-color: ;
+  text-shadow: 2px 2px #00f3ffc7;
+}
+
+#guessLetters {
+  /* margin-top: 200px; */
+  position: absolute;
+  top: 61%;
+  left: 5%;
+  text-shadow: 2px 2px #00f3ffc7;
+}
+
+#input-box {
+  position: absolute;
+  top: 61%;
+  left: 45%;
+  text-shadow: 2px 2px #00f3ffc7;
+}
+
+.dash {
+  margin-top: 50%
+}
+
+.container {
+  /* Squeezes content into center of page regardless of screen size */
+  margin: 0 auto;
+  max-width: 1200px;
+  /* Keep content away from edge of screen */
+  padding: 1%;
+}
+
+.row {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.row::after {
+  /* Clearfix */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* #ending {
+  margin-bottom: 0px;
+  clear: both;
+  padding-bottom: 10%;
+} */
